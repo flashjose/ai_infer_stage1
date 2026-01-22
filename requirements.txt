@@ -1,1 +1,9 @@
+# 使用 conda 或 virtualenv 创建虚拟环境
+conda create -n ai_infer python=3.8
+conda activate ai_infer
 
+# 安装必要的依赖
+pip install torch onnx onnxruntime
+
+# 创建 requirements.txt
+pip freeze > requirements.txt
