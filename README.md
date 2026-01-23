@@ -5,10 +5,10 @@
 This project focuses on creating an end-to-end AI inference pipeline, from training a model to exporting it in ONNX format and performing inference using ONNX Runtime.
 
 ## Environment
-- Python 3.x
+- Python 3.12
 - PyTorch
 - ONNX Runtime
-- Ubuntu 20.04 / 22.04
+- Ubuntu  22.04
 
 ## Training
 - Dataset: MNIST / CIFAR-10
