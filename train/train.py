@@ -7,8 +7,8 @@ from model import SimpleCNN
 
 # ============ 超参数（Day4 会优化这里）============
 BATCH_SIZE = 64# 批次大小
-LEARNING_RATE = 0.001# 学习率
-EPOCHS = 3# 训练轮数
+LEARNING_RATE = 0.001# 学习速度
+EPOCHS = 5# 训练轮数
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")# 设备
 SAVE_PATH = "mnist_cnn.pth"
 

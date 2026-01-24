@@ -7,3 +7,9 @@ pip install torch onnx onnxruntime
 
 # 创建 requirements.txt
 pip freeze > requirements.txt
+
+torch
+torchvision
+onnx
+onnxruntime
+numpy
